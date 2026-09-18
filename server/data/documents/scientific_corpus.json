@@ -1,0 +1,125 @@
+[
+  {
+    "id": "fao-soil-bio-2020-ch4",
+    "title": "State of Knowledge of Soil Biodiversity: Status, Challenges and Potentialities",
+    "source": "FAO",
+    "source_url": "https://www.fao.org/documents/card/en/c/cb1928en",
+    "publication_year": 2020,
+    "document_type": "global_report",
+    "topic": ["soil_health", "biodiversity", "microbial_activity"],
+    "environmental_variables": ["soil_organic_carbon", "soil_moisture", "microbial_biomass", "species_richness"],
+    "region": "global",
+    "credibility": "high",
+    "abstract": "Comprehensive assessment of soil biodiversity role in agricultural resilience, nutrient cycling, and water infiltration.",
+    "chunks": [
+      {
+        "chunk_id": "fao-soil-01",
+        "text": "Soil organic carbon (SOC) serves as the primary energetic substrate for subterranean biological communities. In semi-arid agricultural ecosystems, soils with SOC concentrations below 0.6% exhibit impaired macro-aggregate stability and drastically reduced water-holding capacity. Introduction of multi-species cover cropping and organic mulch consistently enhances soil moisture retention by reducing surface evaporation and providing continuous root exudates that stimulate mycorrhizal fungi and nitrogen-fixing bacterial populations.",
+        "variables": ["soil_organic_carbon", "soil_moisture", "microbial_biomass"],
+        "interventions": ["cover_crops", "organic_amendments", "reduced_tillage"]
+      },
+      {
+        "chunk_id": "fao-soil-02",
+        "text": "Intensive monoculture systems without ground cover deplete organic matter reserves and leave topsoil vulnerable to thermal and moisture stress. Transitioning from continuous monoculture to crop diversification or rotational cover cropping fosters heterogeneous microhabitats. Controlled field trials demonstrate that maintaining organic ground cover in low-rainfall cereal systems stabilizes soil temperatures and increases earthworm and arthropod richness over 2 to 4 growing seasons.",
+        "variables": ["soil_organic_carbon", "species_richness", "habitat_diversity", "temperature"],
+        "interventions": ["crop_rotation", "cover_cropping", "mulching"]
+      }
+    ]
+  },
+  {
+    "id": "ipbes-global-assess-2019",
+    "title": "Global Assessment Report on Biodiversity and Ecosystem Services",
+    "source": "IPBES",
+    "source_url": "https://www.ipbes.net/global-assessment",
+    "publication_year": 2019,
+    "document_type": "intergovernmental_report",
+    "topic": ["biodiversity", "land_use", "habitat_fragmentation"],
+    "environmental_variables": ["species_richness", "pollinator_abundance", "habitat_diversity", "connectivity"],
+    "region": "global",
+    "credibility": "high",
+    "abstract": "Synthesis of ecological drivers behind terrestrial biodiversity loss and restorative spatial land management.",
+    "chunks": [
+      {
+        "chunk_id": "ipbes-bio-01",
+        "text": "Monocultural agricultural expansion and landscape homogenization are prime drivers of arthropod and avian population declines in arable landscapes. Homogeneous monocultures lack temporal resource continuity for pollinators and natural pest predators. Integrating flowering buffer strips, hedgerows, and field boundary polycultures establishes ecological corridors that reconnect fragmented habitats and significantly raise local species richness.",
+        "variables": ["species_richness", "pollinator_abundance", "habitat_diversity"],
+        "interventions": ["buffer_strips", "hedgerows", "habitat_corridors", "agroforestry"]
+      },
+      {
+        "chunk_id": "ipbes-bio-02",
+        "text": "When cash crop monocultures (such as wheat or corn) cannot be substituted due to economic constraints, integrating perennial field margins, non-competitive floral understories, or perimeter conservation corridors elevates insect predator populations and wild pollinator visitation rates without penalizing primary crop acreage.",
+        "variables": ["crop", "pollinator_abundance", "species_richness", "ecological_connectivity"],
+        "interventions": ["conservation_margins", "floral_borders", "perennial_strips"]
+      }
+    ]
+  },
+  {
+    "id": "ipcc-land-climate-2022",
+    "title": "Climate Change and Land: IPCC Special Report on Desertification, Land Degradation, and Food Security",
+    "source": "IPCC",
+    "source_url": "https://www.ipcc.ch/srccl/",
+    "publication_year": 2022,
+    "document_type": "scientific_assessment",
+    "topic": ["climate", "soil_health", "drought_resilience"],
+    "environmental_variables": ["rainfall", "temperature", "soil_moisture", "soil_organic_carbon"],
+    "region": "drylands_and_semi_arid",
+    "credibility": "high",
+    "abstract": "Analysis of land-climate interactions, dryland degradation tipping points, and climate-resilient sustainable land management.",
+    "chunks": [
+      {
+        "chunk_id": "ipcc-land-01",
+        "text": "In semi-arid and drought-prone zones, erratic low precipitation combined with low soil organic matter accelerates topsoil erosion and soil moisture deficit. Soil organic carbon depletion limits soil hydraulic conductivity and available water capacity (AWC). Sustainable land management (SLM) practices—including no-till seeding, retention of crop residues, and agroforestry shelterbelts—enhance soil moisture conservation, buffer against extreme temperature fluctuations, and decrease dryland vulnerability.",
+        "variables": ["rainfall", "soil_moisture", "soil_organic_carbon", "temperature"],
+        "interventions": ["residue_retention", "no_till", "shelterbelts", "agroforestry"]
+      }
+    ]
+  },
+  {
+    "id": "unep-making-peace-2021",
+    "title": "Making Peace with Nature: A scientific blueprint to tackle the climate, biodiversity and pollution emergencies",
+    "source": "UNEP",
+    "source_url": "https://www.unep.org/resources/making-peace-nature",
+    "publication_year": 2021,
+    "document_type": "scientific_blueprint",
+    "topic": ["pollution", "biodiversity", "agroecology"],
+    "environmental_variables": ["pesticide_intensity", "species_diversity", "soil_microbial_activity"],
+    "region": "global",
+    "credibility": "high",
+    "abstract": "Strategic framework uniting biodiversity protection, chemical pollution abatement, and agroecological restoration.",
+    "chunks": [
+      {
+        "chunk_id": "unep-nature-01",
+        "text": "High pesticide application intensity suppresses beneficial non-target organisms, notably decomposers and predatory arthropods, triggering secondary pest outbreaks. Adoption of Integrated Pest Management (IPM), biological pest controls, and vegetation diversification drastically cuts ecotoxicity loads while stabilizing biological pest suppression mechanisms.",
+        "variables": ["pesticide_intensity", "species_diversity", "soil_microbial_activity"],
+        "interventions": ["integrated_pest_management", "biological_controls", "pesticide_reduction"]
+      }
+    ]
+  },
+  {
+    "id": "dryland-agroecology-journal-2023",
+    "title": "Multi-Variable Synergies of Crop Diversification in Semi-Arid Cereal Production: A Meta-Analysis",
+    "source": "Agronomy for Sustainable Development / Peer-Reviewed",
+    "source_url": "https://doi.org/10.1007/s13593-023-00892-x",
+    "publication_year": 2023,
+    "document_type": "peer_reviewed_journal",
+    "topic": ["soil_health", "biodiversity", "cropping_systems"],
+    "environmental_variables": ["soil_organic_carbon", "soil_moisture", "crop", "species_richness"],
+    "region": "semi-arid",
+    "credibility": "high",
+    "abstract": "Meta-analysis of 142 dryland field trials assessing legume intercropping, cover cropping, and residue retention on soil organic carbon and insect diversity.",
+    "chunks": [
+      {
+        "chunk_id": "dryland-agro-01",
+        "text": "In semi-arid wheat production systems receiving under 400 mm annual rainfall, intercropping or relay cropping drought-tolerant legumes (e.g., chickpea, lentil) or brassica cover crops into cereal stubble increased soil organic matter accrual over 3 to 5 years. The practice elevated pollinator and ground beetle diversity without significant soil water competition when residues were retained as a biological mulch.",
+        "variables": ["rainfall", "soil_organic_carbon", "crop", "species_richness", "soil_moisture"],
+        "interventions": ["legume_intercropping", "relay_cropping", "stubble_mulching"]
+      },
+      {
+        "chunk_id": "dryland-agro-02",
+        "text": "Where farmers are obligated to preserve wheat monoculture as their primary harvestable cash crop, strip-intercropping and companion cropping (sowing clovers or drought-resilient legumes in alternating 3-meter strips or understories) enhanced beneficial insect abundance and elevated soil nitrogen availability without compromising wheat yield stability.",
+        "variables": ["crop", "land_use", "species_richness", "soil_organic_carbon"],
+        "interventions": ["strip_intercropping", "companion_planting", "understory_clover"]
+      }
+    ]
+  }
+]
