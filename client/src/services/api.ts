@@ -4,7 +4,7 @@ import type {
 } from '../types/environmental';
 
 const API_BASE =
-  import.meta.env.VITE_API_URL || '';
+  import.meta.env.VITE_API_URL || 'https://daruka-ai.onrender.com';
 
 export async function sendChatMessage(params: {
   message: string | object;
