@@ -1,6 +1,6 @@
 import type { StructuredResponse, ScientificCorpusDoc } from '../types/environmental';
 
-const API_BASE = '/api';
+const API_BASE = 'https://daruka-ai.vercel.app/api';
 
 export async function sendChatMessage(params: {
   message: string | object;
