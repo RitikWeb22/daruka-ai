@@ -1,7 +1,9 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { globalMongo } from '../src/services/mongoService';
 
-describe('MongoDB Atlas Persistence Service', () => {
+const describeMongoSuite = process.env.MONGODB_URI ? describe : describe.skip;
+
+describeMongoSuite('MongoDB Atlas Persistence Service', () => {
   beforeAll(async () => {
     await globalMongo.connect();
   }, 15000);
